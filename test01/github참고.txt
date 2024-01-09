@@ -19,7 +19,7 @@ git push -u origin main
 
 # 플젝 받기
 git clone https://github.com/rebirthKim/TestProject.git
-bash쉘에서[$ start . ] 명령어를 치면 현재위치에서 파일탐색기가 뜹
+bash쉘에서[$ start . ] 명령어를 치면 현재위치에서 파일탐색기가 뜹니다.
 
 # git 상태를 표시한다.
 git status
