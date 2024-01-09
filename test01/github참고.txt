@@ -1,0 +1,48 @@
+github 
+neiver70@naver.com / !rebirth70
+
+https://github.com/rebirthKim/TestProject.git
+
+ - create a new repository on the command line
+echo "# TestProject" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/rebirthKim/TestProject.git
+git push -u origin main
+
+- push an existing repository from the command line
+git remote add origin https://github.com/rebirthKim/TestProject.git
+git branch -M main
+git push -u origin main
+
+# 플젝 받기
+git clone https://github.com/rebirthKim/TestProject.git
+bash쉘에서[$ start . ] 명령어를 치면 현재위치에서 파일탐색기가 뜹
+
+# git 상태를 표시한다.
+git status
+
+$ git add myfile.txt 명령어를 쳐줍니다. 
+git add는 git의 추적을 받는 상태인 [Staging Area] 영역으로 상태값을 바꾸어주는 명령어
+
+git status
+
+git commit을 하기전에 다음의 두 줄을 입력해야합니다.
+
+git config --global user.name "github 아이디"
+git config --global user.email "github 이메일주소"
+
+$ git commit -m "My first commit" 
+
+위 명령어를 직접 쳐보면 commit이 완료됩니다.
+
+$ git log
+git log를 쳐보면 정상적으로 commit이 된 history를 볼 수 있습니다.
+
+git log -p 옵션을 써서 보면 전체 변경 내역도 볼 수 있어요.
+
+$ git push origin main
+git push는 서버에 올리겠다는 명령어이고 origin은 서버의 별명입니다. git remote -v를 치면 나오지만 일단은 무조건 넣어준다고 생각해주세요. 
+그리고 main은 현재의 branch 입니다. 위에 사진들 보면 항상 (main)이 나오고 있었는데 현재 내가 위치한 branch를 뜻합니다.
